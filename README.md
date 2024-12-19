@@ -5,3 +5,7 @@ Sistema que depura um código-fonte com base em outro, avaliando o nível de sim
 # Web Service:
 - Flask
   
+Como utilizar:
+
+1° Inicie a aplicação, com isso o endpoint flask será habilitado.
+2° Utilize o Postaman para realizar o request http://127.0.0.1/compare (POST), via JSON contendo os dois códigos que deverão ser comparados.
